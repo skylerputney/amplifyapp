@@ -1,7 +1,8 @@
 import React from 'react';
 function Card() {
     return (
-        <div className="Card" class="container-fluid mt-3">
+        <div className="Card" class="container-fluid mt-3" style={{ paddingLeft: '10%', paddingRight: '10%' }}>
+        <h2>Card Components</h2>
             <div class="row">
                 <div class="col-4">
                     <div class="card text-white bg-primary mb-3"  >
